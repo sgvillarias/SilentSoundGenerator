@@ -31,7 +31,7 @@ public class SilentSoundApplicationContext : ApplicationContext
 
 			while(true)
 			{
-				await Task.Delay(1000);
+				await Task.Delay(300000);
 			}
 		});
 	}
